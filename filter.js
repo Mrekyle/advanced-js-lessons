@@ -96,3 +96,7 @@ console.log("Single lines of code", candidates)
 
 // All the above lines of code are exactly the same as the ones above it. Just condensed down into single lines of code.
 // Allowing us to remove the return statement to.
+
+const candidateName = candidates.map(names => [names.name]) // Using the map method we can then get the individual names from the array.
+// Which also goes for any other information required
+console.log("Candidates that passed names", candidateName)
