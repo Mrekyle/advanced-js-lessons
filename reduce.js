@@ -1,3 +1,5 @@
+const btn = document.getElementById('btn');
+
 /**
  * To run this file in Gitpod, use the 
  * command node reduce.js in the terminal
